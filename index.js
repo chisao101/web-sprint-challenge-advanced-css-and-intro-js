@@ -330,7 +330,7 @@ function lotsOfArt(arr){
     busyArtists.push(artists[i].name);
     }
   }
-  return busyArtists;
+  return busyArtists; //return new array
 }
 
 
