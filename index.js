@@ -301,6 +301,7 @@ Use addArtist to do the following:
 Example: addArtist(artists) should return the artists array with the above object added to the end of the array. */
 
 function addArtist(arr){
+  // create new object
     let newArtist = {
       id: 20,
       name: 'Mike Nealon', 
@@ -310,7 +311,7 @@ function addArtist(arr){
       bio: 'I generally have a difficult time accessing object properties and values inside an array of objects. Hopfully I will get better at it, eventually.'
     };
     arr.push(newArtist);
-    return arr;
+    return arr; // return array with new object added
   }
 
   
